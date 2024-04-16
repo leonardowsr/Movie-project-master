@@ -1,0 +1,11 @@
+.page_search {
+  display: grid;
+}
+.page_search img {
+  margin: auto;
+}
+.background {
+  margin-top: 1px;
+  min-height: 90vh;
+
+}

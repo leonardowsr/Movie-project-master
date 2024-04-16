@@ -1,0 +1,6 @@
+.active_gender_search {
+  border: black 1px solid;
+  background-color: rgb(3, 105, 161);
+  color: white;
+  opacity: 0.2;
+}

@@ -1,0 +1,10 @@
+.search_bar {
+  animation: show_down 0.4s;
+  transform: translateY(-40px) forwards;
+}
+
+@keyframes show_down {
+  to {
+    transform: initial;
+  }
+}

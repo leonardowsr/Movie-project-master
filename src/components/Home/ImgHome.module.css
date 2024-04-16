@@ -1,0 +1,25 @@
+.bg_img {
+  height: 25rem;
+  /* background-image: url('../../../assets/pulpFiction.jpg'); */
+  background-position: center 15%;
+  animation: show 0.4s forwards;
+  filter: brightness(80%);
+}
+
+@keyframes show {
+  to {
+    opacity: 1;
+  }
+}
+
+.title {
+  animation: showTitle 0.4s forwards;
+  transform: translateX(-100px);
+  text-shadow: 2px 1px 1px #1c5566;
+}
+
+@keyframes showTitle {
+  to {
+    transform: initial;
+  }
+}
